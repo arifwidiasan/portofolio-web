@@ -10,7 +10,7 @@ const projectData = [
         description: "Description 1",
         image: "/image/project1.jpg",
         tag : ["All", "Web"],
-        gitUrl: "/",
+        gitUrl: "https://github.com/arifwidiasan",
     },
     {
         id: 2,
@@ -66,11 +66,11 @@ const ProjectSection = () => {
     );
 
   return (
-    <>
+    <div id="portofolio">
         <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
             My Portofolio
         </h2>
-        <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+        <div className="text-white flex flex-wrap flex-row justify-center items-center gap-2 py-6">
             <ProjectTag 
                 onClick={handleTagChange} 
                 name="All" 
@@ -103,7 +103,7 @@ const ProjectSection = () => {
                 />
             ))}
         </div>
-    </>
+    </div>
   )
 }
 
