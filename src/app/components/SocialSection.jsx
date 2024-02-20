@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import GithubIcon from '../../../public/github-icon.svg'
 import LinkedinIcon from '../../../public/linkedin-icon.svg'
+import MailIcon from '../../../public/mail-icon.svg'
 
 const SocialSection = () => {
   return (
@@ -24,6 +25,10 @@ const SocialSection = () => {
             <Link href="https://www.linkedin.com/in/arifwidiasan/" target="_blank" className="flex flex-row items-center">
                 <Image src={LinkedinIcon}/>
                 <p className="justify-center ml-4 font-semibold">arifwidiasan</p>
+            </Link>
+            <Link href="mailto:arifw.subagio17@gmail.com" target="_blank" className="flex flex-row items-center">
+                <Image src={MailIcon} className="size-11"/>
+                <p className="justify-center ml-4 font-semibold">arifw.subagio17@gmail.com</p>
             </Link>
         </div>
         </div>
