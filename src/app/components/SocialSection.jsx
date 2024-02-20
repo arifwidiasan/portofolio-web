@@ -12,26 +12,18 @@ const SocialSection = () => {
             <h5 className="text-xl font-bold text-white my-2">My Social</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa exercitationem quia quas, sapiente laborum aut hic repellendus? Necessitatibus, facilis, ab blanditiis quas autem earum exercitationem, ipsa quibusdam quo voluptatibus dolorum?
+                I'm currently looking for new opportunities, You can find me on social media and my github. Feel free to connect with me.                
             </p>            
         </div>
         <div className="socials flex flex-col items-start md:items-center">
         <div className="flex flex-col justify-start gap-2">
             <Link href="https://github.com/arifwidiasan" target="_blank" className="flex flex-row items-center">
                 <Image src={GithubIcon}/>
-                <p className="justify-center ml-4 font-semibold">github.com</p>
+                <p className="justify-center ml-4 font-semibold">arifwidiasan</p>
             </Link>
-            <Link href="linkedin.com" target="_blank" className="flex flex-row items-center">
+            <Link href="https://www.linkedin.com/in/arifwidiasan/" target="_blank" className="flex flex-row items-center">
                 <Image src={LinkedinIcon}/>
-                <p className="justify-center ml-4 font-semibold">gikkkthub.com</p>
-            </Link>
-            <Link href="github.com" target="_blank" className="flex flex-row items-center">
-                <Image src={GithubIcon}/>
-                <p className="justify-center ml-4 font-semibold">github.com</p>
-            </Link>
-            <Link href="github.com" target="_blank" className="flex flex-row items-center">
-                <Image src={GithubIcon}/>
-                <p className="justify-center ml-4 font-semibold">github.com</p>
+                <p className="justify-center ml-4 font-semibold">arifwidiasan</p>
             </Link>
         </div>
         </div>
