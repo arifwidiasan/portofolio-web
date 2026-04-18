@@ -17,9 +17,9 @@ const HeroSection = () => {
                         // Same substring at the start will only be typed out once, initially
                         'Arif Widiasan Subagio',
                         1000, // wait 1s before replacing "Mice" with "Hamsters"
-                        'Fresh Graduate',
+                        'Software Engineer',
                         1000,
-                        'Go Backend Developer',
+                        'Golang Developer',
                         1000,
                         'Web Developer',
                         1000
@@ -30,7 +30,7 @@ const HeroSection = () => {
                 />
             </h1>
             <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl ">
-                Fresh graduate majoring in Computer Science who passionate about technology and programming.
+                Backend Developer with a background in Computer Science, specializing in system modernization and reliable backend architecture.
             </p>
             <div>
                 <Link href="https://www.linkedin.com/in/arifwidiasan/" target="_blank">

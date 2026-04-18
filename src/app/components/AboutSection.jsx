@@ -12,18 +12,21 @@ const TAB_DATA = [
                 <ul className="list-disc pl-2">
                 <li>Go</li>
                 <li>PHP</li>
+                <li>ReactJS</li>
                 <li>Python</li>
                 <li>MySQL</li>
             </ul>
             <ul className="list-disc pl-2">
-                <li>Echo Golang</li>
-                <li>Codeigniter</li>
-                <li>GORM</li>
+                <li>Web Development</li>
+                <li>Echo & Fiber Golang</li>
+                <li>Codeigniter</li>               
+                <li>Git</li>
                 <li>Docker</li>
             </ul>
             <ul className="list-disc pl-2">
-                <li>Web Development</li>
-                <li>Git</li>
+                <li>Legacy System Migration</li>
+                <li>RESTful API Design</li>
+                <li>Agile / Scrum Methodology</li>
                 <li>Premiere & Photoshop</li>
                 <li>Language (Bahasa & English)</li>
             </ul>
@@ -47,6 +50,8 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul className="list-disc pl-2">
+                <li>PT. Indodev Niaga Internet (DataOn)</li>
+                <span className="text-[#ADB7BE] text-sm">(Junior Software Developer, May 2024 - Now)</span>
                 <li>PT. Angkasa Pura I Bandara Juanda Surabaya</li>
                 <span className="text-[#ADB7BE] text-sm">(Internship, Oct 2022 - Dec 2022)</span>
                 <li>PT. Andromedia</li>
@@ -73,11 +78,11 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
         <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-            <Image src="/image/about_new.png" width={500} height={500} />
+            <Image src="/image/about-new-1.png" width={500} height={500} />
             <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                 <h2 className="text-4xl font-bold text-white mb-4">About me</h2>
                 <p className="text-base lg:text-lg">
-                I am a 24-year-old Fresh Graduate majoring in Informatics who is ready to pursue a career in a field related to information technology, has a passion for always trying new things and is adaptive in various situations. Have an understanding of algorithms, data structures, clean architecture, and database management. Experienced in Web and Backend Development using PHP, Python, Go, CodeIgniter, MySQL, and Docker.                </p>                
+                I am a Software Engineer who loves turning complex problems into streamlined, scalable solutions. Over the past two years, my core focus has been enterprise backend development—specifically migrating legacy infrastructure to Golang, designing robust ticketing systems, and building internal libraries to improve developer workflows. I thrive in cross-functional environments where I can build high-performance backend services using Go and SQL, while also jumping in to support frontend feature enhancements using ReactJS.</p>                
                 <div className="flex flex-row justify-start mt-8">
                     <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
                         {" "}Skills{" "}

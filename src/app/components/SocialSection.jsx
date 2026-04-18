@@ -14,7 +14,7 @@ const SocialSection = () => {
             <h5 className="text-xl font-bold text-white my-2">My Social</h5>
             <p className="text-[#ADB7BE] mb-4 max-w-md">
                 {" "}
-                I'm currently looking for new opportunities, You can find me on social media and my github. Feel free to connect with me.                
+                I am currently open to new backend opportunities. Feel free to check out my GitHub or connect with me!.               
             </p>            
         </div>
         <div className="socials flex flex-col items-start md:items-center">
